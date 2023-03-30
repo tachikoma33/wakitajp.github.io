@@ -1,0 +1,83 @@
+/* カスタムスタイルを追加 */
+
+:root {
+    --primary-color: #4c4cff;
+    --secondary-color: #28283d;
+    --text-color: #fff;
+    --footer-background-color: #28283d;
+}
+
+body {
+    padding-top: 80px;
+    font-family: 'Arial', sans-serif;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    margin-bottom: 80px;
+}
+
+h2 {
+    margin-bottom: 30px;
+    border-bottom: 3px solid var(--primary-color);
+    display: inline-block;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* お問い合わせフォームのボタンスタイル */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: #3c3ccf;
+    border-color: #3c3ccf;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--footer-background-color);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.sns-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.sns-icon {
+    color: var(--text-color);
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.sns-icon:hover {
+    color: var(--primary-color);
+}
+
+.card {
+    margin-bottom: 1rem;
+}
+
+.card-img-top {
+    height: 100px;
+    object-fit: cover;
+}
+
+.content-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
